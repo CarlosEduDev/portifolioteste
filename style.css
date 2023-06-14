@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.prg{
+    color: white;
+}
+
+
+body{
+   background: url(./image/summerAnime.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   
+      
+}
+
+header{
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+}
+header h1{
+    margin-left: 10px;
+}
+.imgProg{
+    width: 214px;
+    border-radius: 37%;
+    padding-bottom: 30px;
+}
+
+
+
+#nav-bar ul{
+    display: flex;
+   justify-content: space-evenly;
+   padding: 1,5rem 6rem;
+   list-style:none;
+}
+.nav-list{
+    display: flex;
+   align-items: center;
+   font-size: 18px;
+}
+
+@media screen and (max-width: 730px) {
+    
+}
+
+.myPicture{
+    width: 214px;
+    height: 214px;
+    border-radius: 47%;
+}
+
+.Aboutme{
+    background: wheat;
+    opacity: 0.7;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+
+
+.To-do{
+    width: 15vw;
+    border-radius: 30px;
+    margin:20px 10px
+}
+
+.princProj{
+    margin-left: 30px;
+}
+
+.card-1{
+    margin-left: 20px;
+}
+.card-1 h4{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.Qr-code{
+    width: 10vw;
+    border-radius: 30px;
+    margin:20px 10px
+}
+
+.card-2{
+    margin-left: 50px;
+}
+.card-2 h4{
+    margin-left: 50px;
+}
+
+.testdigit{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 30px;
+    margin:20px 
+}
+.card-3 h4{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.contadorProj{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 30px;
+    margin:20px 
+}
+.card-4 h4{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+footer{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 5vh;
+    margin-left: 40px;
+    
+}
+
+footer ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.contact{
+    width: 45px;
+    background: white;
+    border-radius: 50%;
+    
+    
+    margin-top: 20px;
+}
